@@ -9,6 +9,7 @@ a {
 header {
     background-color: #ffffff;
     width: 100%;
+    height: 150px;
 }
 
 #logo {
@@ -25,4 +26,27 @@ header {
     color: #659dbd;
     clear: both;
     margin: 1px 0 30px 35px;
+}
+
+/* nav with links */
+nav {
+    background-color: #DAAD86;
+    height: 40px;
+    width: 100%;
+}
+
+
+/* section area */
+
+section {
+    background-color: #659dbd;
+    width: 100%;
+    height: 60%;
+    color: #ffffff;
+}
+
+/* footer */
+footer {
+    height: 150px;
+    width: 100px;
 }
