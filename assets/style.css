@@ -13,7 +13,7 @@ body {
 header {
     background-color: #ffffff;
     width: 100%;
-    height: 125px;
+    height: 15%;
 }
 
 #logo {
@@ -76,17 +76,42 @@ li>a {
 
 
 
-/* section area */
+/* section area with film*/
 
 section {
     background-color: #659dbd;
     width: 100%;
-    height: 60%;
+    height: 700px;
     color: #ffffff;
 }
 
 /* footer */
+
 footer {
-    height: 150px;
-    width: 100px;
+    height: auto;
+}
+
+#address {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 1px;
+}
+
+#phone {
+    float: right;
+    width: 50%;
+    padding: 1px;
+}
+
+#address>p {
+    padding: 1px;
+    margin: 1px;
+    float: right;
+}
+
+#phone>p {
+    padding: 1px;
+    margin: 1px;
+    float: left;
 }
