@@ -32,12 +32,13 @@ header {
     margin: 1px 0 30px 35px;
 }
 
-/* nav with links */
+/* menu with links */
 
 #menu {
     background-color: #DAAD86;
     width: 100%;
     font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
 }
 
 ul {
@@ -102,3 +103,27 @@ li a {
 margin: 0 auto;}
 
 /* contact-form */
+
+#form-div {
+    padding: 115px;
+}
+
+#contact-form {
+    margin: 0 auto;
+    max-width: 30%;
+}
+
+#email {
+    text-align: left;
+    margin: 10px;
+}
+
+#contact {
+    margin: 10px;
+}
+
+#send {
+    background-color: #DAAD86;
+    margin: 10px;
+    padding: 5px 10px;
+}

@@ -30,11 +30,22 @@
         </ul>
     </div>
     <section class="main-content">
-        <form action="mailto:flisanlisan@gmail.com" method="POST">
-            <textarea cols="50" rows="20" id="contact" name="contact" placeholder="Contact us" cols="50" rows="50">
+    <div id="form-div">
+        <form id="contact-form" action="mailto:flisanlisan@gmail.com" method="POST">
+            <fieldset>
+                <legend><strong>Contact us</strong></legend>
+            <div>
+            <input type="email" id="email-form" name="email-form" aria-label="Your E-mail" placeholder="Your E-mail" required>
+            </div>  
+            <hr>
+            <div>
+            <textarea cols="60" rows="20" id="contact" name="contact" aria-label="Message us" required>Write your message here
                 </textarea>
-        <input type="button" name="submit" id="submit" aria-label="Send">
+            </div>
+        <button type="submit" name="send" id="send">Send</button>
         </form>
+        </fieldset>
+    </div>
         
     </section>      
 <footer>
