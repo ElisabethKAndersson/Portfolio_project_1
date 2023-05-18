@@ -9,12 +9,16 @@
   </head>
 
   <body>
+
+    <!--Header with logo-->
     <header>
       <a href="index.html">
         <h1 id="logo">FilmArk</h1>
         <h4 id="logo-bottom">We help telling your stories!</h4>
       </a>
     </header>
+
+    <!--menu-links-->
     <div id="menu">
       <ul>
         <li>
@@ -29,14 +33,11 @@
       </ul>
     </div>
 
+    <!--Part with film samples-->
     <section class="main-content">
-      <div id="films">
-        <div>
-          <h2 class="film-h2">Ficton</h2>
-        </div>
-
-        <div>
-          <div id="film1" class="div-parent-iframe">
+      <h2 class="film-h2">Ficton</h2>
+    <div class="film-flex">
+            <div id="film1" class="all-films">
             <iframe
               class="all-films"
               width="560"
@@ -47,8 +48,8 @@
               style="border: none; overflow: hidden"
               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
             ></iframe>
-          </div>
-          <div id="film2">
+        </div>
+        <div id="film2" class="all-films">
             <iframe
               class="all-films"
               width="560"
@@ -58,13 +59,14 @@
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
-          </div>
         </div>
+    </div>
         <div>
           <hr />
           <h2 class="film-h2">Documentaries</h2>
         </div>
-        <div id="film3">
+    <div class="film-flex">
+        <div id="film3" class="all-films">
           <iframe
             class="all-films"
             width="560"
@@ -75,17 +77,18 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
         </div>
-        <div id="film4">
-          <iframe
+        <div id="film4" class="all-films">
+           <iframe
             class="all-films"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/m9v2ohku0o8?start=17"
             title="YouTube video player"
-    
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
         </div>
+    </div>
       </div>
     </section>
     <footer>
