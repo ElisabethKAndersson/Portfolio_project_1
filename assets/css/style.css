@@ -10,7 +10,6 @@ body {
 }
 
 /* header and logo */
-
 header {
     background-color: #ffffff;
     width: 100%;
@@ -33,7 +32,6 @@ header {
 }
 
 /* menu with links */
-
 #menu {
     background-color: #DAAD86;
     width: 100%;
@@ -62,38 +60,41 @@ li a {
 }
 
 /* section area with film*/
-
 .main-content{
     background-image: url(../images/editing.jpg);
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(85, 122, 149, 0.9);
     width: 100%;
     color: #ffffff;
-
 }
-#video-div {padding: 100px 0 40px 0;
-            display: grid;
-            margin: 0 auto;
-            place-items: center;
+
+.main-content-film
+{
+    background-image: url(../images/editing.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(85, 122, 149, 0.9);
+    width: 100%;
+    color: #ffffff;
+}
+  
+#video-div {display: grid;
+            grid-template-columns: 50% 40% 10%;
             }
 
 #index-video {
     background-color: transparent;
     border: 4px solid white;
     max-width: 100%;
-    width: 700px;
+    max-width: 600px;
+    margin: 150px 200px;
 }
 
-#presentation {
-    max-width: 100%;
-    text-align: center;
-    padding-bottom: 30px;
+#presentation1 {
     color: #ffffff;
+    padding: 150px 100px;
 }
-
 
 /* footer */
-
 .footer {
     margin-top: 3px;
     width: 100%;
@@ -106,7 +107,6 @@ li a {
 margin: 0 auto;}
 
 /* contact-form */
-
 #form-div {
     padding: 90px 115px ;
 }
@@ -132,7 +132,6 @@ margin: 0 auto;}
 }
 
 /* film-page */
-
 #films {
     margin: 0;
     padding: 50px;
@@ -151,15 +150,13 @@ hr {clear: both;
 
     .all-films {
         margin: 33px;
-
     }
 
-.film-h2 { padding: 20px 50px;
+.film-h2 { padding: 20px 80px 5px 80px;
     margin: 0;
 }
 
 /* color-change for the link of the page showing. */
-
 #home-link {background-color: #e2c7b0;}
 #films-link {background-color: #e2c7b0;}
 #contact-link {background-color: #e2c7b0;}
@@ -171,14 +168,19 @@ hr {clear: both;
 
 @media screen and (max-width: 1470px){
 
+    #index-video {width: 500px;}
+
     #film2, #film4{
        float: none;
     }
+
 }
 
 /* for screens 1024px and down */
 
 @media screen and (max-width: 1024px){
+
+
 
 #form-div {
     padding: 30px 1px;
