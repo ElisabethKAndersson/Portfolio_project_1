@@ -1,74 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArkFilm</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+  <body>
 
-<!--Header with logo-->
-<body>
+    <!--Header with logo-->
     <header>
-        <a href="index.html">
-            <h1 id="logo">FilmArk</h1>
-            <h4 id="logo-bottom">We help telling your stories!</h4>
-        </a>
+      <a href="index.html">
+        <h1 id="logo">FilmArk</h1>
+        <h4 id="logo-bottom">We help telling your stories!</h4>
+      </a>
     </header>
 
-<!--Menu with page-links-->
+    <!--menu-links-->
     <div id="menu">
-        <ul>
-            <li>
-                <a href="index.html" id="home-link">Home</a>
-            </li>
-            <li>
-                <a href="films.html">Films</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a id="home-link" href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="films.html">Films</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
 
-<!--Introduction and film-->
+    <!--Part with film samples-->
     <section class="main-content">
-
-
-        <div id="video-div">
-           <video id="index-video" src="assets/footage/flyforest.mp4" controls muted autoplay></video>
-        
-
-            <div id="presentation1">
-                <h2>
-                    We know post-production    
-                </h2>
-                <h4>We help you with the whole post-production process. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<h5>
-            
-            </div>
-            <div id="presentation2">
-                <h3>
-                    
-                </h3> 
-            </div>
+     <div class="index-flex">
+            <div  class="all-films">
+                <img src="assets/images/editor.jpg" id="index-img" alt="Woman editing film">
         </div>
-    </section>      
-
-<!--footer with address-->
-<footer>
-    <div class="footer">
-        <div class="contact1">
-           <p>ADDRESS: <br> Filmvägen <br>3 931 32 Skellefteå</p>   
-        </div>
-        <div class="contact1">
-            <p>ADDRESS Skellefteå</p>   
-         </div>
-        <div class="contact2">
-            <p>Email: info@filmark.se <br>Phone: +46702266333</p>
+        <div id="introduction">
+            <h2>We know post-production</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Id aliquet lectus proin nibh nisl. Duis convallis convallis tellus id interdum velit laoreet id donec. Id nibh tortor id aliquet lectus proin nibh nisl. Risus feugiat in ante metus. Elit sed vulputate mi sit. Egestas fringilla phasellus faucibus scelerisque. In dictum non consectetur a erat. Eu consequat ac felis donec. Scelerisque purus semper eget duis at. Pharetra pharetra massa massa ultricies mi.</p>
         </div>
     </div>
-</footer>
-</body>
+      </div>
+    </section>
+    
+    <!--footer with address-->
+    <footer>
+      <div class="footer">
+        <div class="contact1">
+          <p>
+            ADDRESS: <br />
+            Filmvägen <br />3 931 32 Skellefteå
+          </p>
+        </div>
+        <div class="contact1">
+          <p>ADDRESS Skellefteå</p>
+        </div>
+        <div class="contact2">
+          <p>Email: info@filmark.se <br />Phone: +46702266333</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

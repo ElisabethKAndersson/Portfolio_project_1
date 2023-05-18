@@ -59,39 +59,13 @@ li a {
     font-size: 20px;
 }
 
-/* section area with film*/
+/* section background*/
 .main-content{
     background-image: url(../images/editing.jpg);
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(85, 122, 149, 0.9);
     width: 100%;
     color: #ffffff;
-}
-
-.main-content-film
-{
-    background-image: url(../images/editing.jpg);
-    background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(85, 122, 149, 0.9);
-    width: 100%;
-    color: #ffffff;
-}
-  
-#video-div {display: grid;
-            grid-template-columns: 50% 40% 10%;
-            }
-
-#index-video {
-    background-color: transparent;
-    border: 4px solid white;
-    max-width: 100%;
-    max-width: 600px;
-    margin: 150px 200px;
-}
-
-#presentation1 {
-    color: #ffffff;
-    padding: 150px 100px;
 }
 
 /* footer */
@@ -106,9 +80,31 @@ li a {
 .footer div {text-align: left;
 margin: 0 auto;}
 
+/* Index page */
+
+
+.index-flex {
+     display: flex;
+     max-width: 80%;
+     margin: 0 auto;
+     flex-wrap: wrap;
+     height: 580px;
+    }
+
+#index-img {
+    max-width: 600px;
+    margin-top: 30px;
+}
+#introduction {
+    margin: 100px 70px;
+    max-width: 40%;
+}
+#introduction>h2 {margin: 0;}
+
+
 /* contact-form */
 #form-div {
-    padding: 90px 115px ;
+    padding: 50px 100px ;
 }
 
 #contact-form {
@@ -131,7 +127,7 @@ margin: 0 auto;}
     padding: 5px 10px;
 }
 
-/* film-page */
+/* films-page */
 #films {
     margin: 0;
     padding: 50px;
@@ -164,16 +160,23 @@ hr {clear: both;
 
 /* media queries */
 
-/* for screens 1440px and down */
+/* for screens 1470px and down */
 
 @media screen and (max-width: 1470px){
 
-    #index-video {width: 500px;}
-
+    
     #film2, #film4{
        float: none;
     }
 
+    #introduction {
+        margin: 70px 70px;
+        max-width: 30%;
+}
+    #index-img {
+    max-width: 600px;
+    margin-top: 40px;
+}
 }
 
 /* for screens 1024px and down */
@@ -227,5 +230,4 @@ hr {clear: both;
             width: 15em;
             margin: 10px;
         }
-    }
-}
+    }}
