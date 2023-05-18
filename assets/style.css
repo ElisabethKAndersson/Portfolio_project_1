@@ -105,7 +105,7 @@ margin: 0 auto;}
 /* contact-form */
 
 #form-div {
-    padding: 115px;
+    padding: 90px 115px ;
 }
 
 #contact-form {
@@ -169,3 +169,67 @@ iframe {
 #home-link {background-color: #e2c7b0;}
 #films-link {background-color: #e2c7b0;}
 #contact-link {background-color: #e2c7b0;}
+
+
+/* media queries */
+
+/* for screens 1440px and down */
+
+@media screen and (max-width: 1470px){
+
+    #film2, #film4{
+       float: none;
+    }
+}
+
+/* for screens 1024px and down */
+
+@media screen and (max-width: 1024px){
+
+#form-div {
+    padding: 30px 1px;
+    margin: 0px;
+    max-width: 100%;
+}
+#contact-form {
+    margin: 0 auto;
+    max-width: 500px;
+}
+}
+
+/* for smaller screens 500px and down */
+
+@media screen and (max-width: 500px){
+    li a {
+        display: block;
+        padding: 5px 25px;
+        background-color: #DAAD86;
+        color: #ffffff;
+        font-size: 16px;
+    }   
+    .footer {
+            font-size: 12px;
+    }
+
+    #presentation {
+        font-size: 14px;
+    }
+
+    #form-div {
+        padding: 1px 1px;
+        margin: 0px;
+        max-width: 100%;
+    }
+
+    #contact-form {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    #contact {
+            height: 20em;
+            width: 15em;
+            margin: 10px;
+        }
+    }
+}
