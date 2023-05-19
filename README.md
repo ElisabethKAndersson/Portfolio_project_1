@@ -21,6 +21,11 @@ I have run through the project with W3C validator and (Jigsaw) validator. I have
 ### Unfixed bugs
 There are some problems with the film links in the films page according to W3C validator. There is a frameborder="0" and width and height that comes with the links collected from Youtube/Facebook. Removing the frameborder creates a border around the film that doesn't look very nice. Removal of width/height seem to cause the films sizes to change. I haven't found a way to correct this with html or CSS. If it had been a real company site it would probably be better to upload films for the web page
 
+## Colour Scheme
+I used the colors from number 3 as inspiration, but choose to use a somewhat colder and darker version of the blue background overlay. I used the codes #DAAD86 and #659dbd from the page
+<img src="assets/images/color.png">
+I used the rgba(85, 122, 149, 0.9) for the background overlay. I also used white on the top and the footer.
+
 ## Deployment
 The coding was written in Codeanywhere and deployed to GitHub pages.
 In the GitHub repository source sektion the Main branch was selected and I got a live link, se below:
@@ -33,6 +38,5 @@ I got advice from my mentor, Jubril Akolade, on several issues on the project an
 
 I used Font
 I used this page to find a color scheme for my homepage: https://visme.co/blog/website-color-schemes/.
-I used the colors from number 3 as inspiration, but choose to use a somewhat colder and darker version of the blue background overlay. I used the codes #DAAD86 and #659dbd.
-<img src="assets/images/color.png">
+
 
