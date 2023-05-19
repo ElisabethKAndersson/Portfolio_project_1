@@ -2,7 +2,7 @@
 
 <img src="assets/images/FilmArk.jpg">
 
-The Film Ark webpage is a way to attract film makers to use the Film Ark company's post-production services. Here potential clients can look at what the company's previous work, as well as find information on how to contact the company. 
+The Film Ark webpage is a way to attract film makers to use the Film Ark company's post-production services. Here potential clients can look at the company's previous work, as well as find information on how to contact the company. 
 
 ## User experience
 The first time user is most likely looking for someone to edit their project. They will go through previous projects and see what the company is capable of. The returning user is probably looking for contact information.
