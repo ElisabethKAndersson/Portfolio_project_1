@@ -6,7 +6,7 @@ The Film Ark webpage is a way to attract film makers to use the Film Ark company
 
 ## Features
 All pages have a company logo on that has a underneath menu leading to the 3 pages: Home, Films and Contact . The page we are currently on is highlighted. This helps the user navigate back and forth between pages.
-<img src="assets/images/menu.png">
+![Menu](assets/images/menu.png")
 There is a footer at the bottom of each page with the address and contact information to Film Ark.
 <img src="assets/images/footing.png">
 The index page has a picture of a woman editing film along with some short information about what the company does. This immediately gives the user an idea of what type of services that are offered at the page.
