@@ -26,9 +26,15 @@ I used the colors from number 3 as inspiration, but choose to use a somewhat col
 <img src="assets/images/color.png">
 I used the rgba(85, 122, 149, 0.9) for the background overlay. I also used white on the top and the footer.
 
+##Typhografy
+I used Google Fonts to add fonts to the project. I used: font-family: "Josefin Sans", sans-serif on the logotype. I used ubuntu on the rest of the web page.
+
 ## Deployment
 The coding was written in Codeanywhere and deployed to GitHub pages.
-In the GitHub repository source sektion the Main branch was selected and I got a live link, se below:
+avigate to the Settings tab in the GitHub repository
+From the source section drop-down menu, select the Main Branch
+Once the main branch has been selected, the page will display a link address to indicate the successful deployment.
+See the live link, se below:
 https://elisabethkandersson.github.io/Portfolio_project_1/
 
 ## Credits 
