@@ -1,14 +1,12 @@
 # Film Ark webpage
 
-![Full page](assets/images/filmark.jpg)
+<img src="assets/images/FilmArk.jpg">
 
 The Film Ark webpage is a way to attract film makers to use the Film Ark company's post-production services. Here potential clients can look at what the company's previous work, as well as find information on how to contact the company. 
 
 ## Features
 All pages have a company logo on that has a underneath menu leading to the 3 pages: Home, Films and Contact . The page we are currently on is highlighted. This helps the user navigate back and forth between pages.
-![Menu](assets/images/menu.png")
 There is a footer at the bottom of each page with the address and contact information to Film Ark.
-<img src="assets/images/footing.png">
 The index page has a picture of a woman editing film along with some short information about what the company does. This immediately gives the user an idea of what type of services that are offered at the page.
 <img src="assets/images/films.png">
 The webpage has a page with films that the company has made. This is a way the give credibility to the business, and works as a type of CV. It also shows what type of editing style the company has.
