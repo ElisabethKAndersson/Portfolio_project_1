@@ -32,6 +32,6 @@ I have used two film links uploaded on my own Youtube user profil. I have also u
 I got advice from my mentor, Jubril Akolade, regarding the use of flexbox and got help from watching a tutorial from Youtube: https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG
 
 I used this page to find a color scheme for my homepage: https://visme.co/blog/website-color-schemes/.
-I used the colors from number 3 as inspiration, but choose to use a somewhat colder version of the blue background overlay. I used the codes #DAAD86 and #659dbd.
+I used the colors from number 3 as inspiration, but choose to use a somewhat colder and darker version of the blue background overlay. I used the codes #DAAD86 and #659dbd.
 <img src="assets/images/color.png">
 
