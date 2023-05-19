@@ -1,4 +1,4 @@
-# Film Ark webpage>/h1>
+# Film Ark webpage
 
 <img src="assets/images/filmark.PNG>
 
