@@ -31,7 +31,7 @@ I used Google Fonts to add fonts to the project. I used: font-family: "Josefin S
 I have run through the project with W3C validator and (Jigsaw) validator. I have also checked different sizes with the help from Chrome Inspect tool. I have tried the links in the menu and filled in and submitted a message in the form.</p>
 
 ### Unfixed bugs
-There are some problems with the film links in the films page according to W3C validator. There is a frameborder="0" and width and height that comes with the links collected from Youtube/Facebook. Removing the frameborder creates a border around the film that doesn't look very nice. Removal of width/height seem to cause the films sizes to change. I haven't found a way to correct this with html or CSS. If it had been a real company site it would probably be better to upload films for the web page
+There are some problems with the film links in the films page according to W3C validator. There is a frameborder="0" and width and height that comes with the links collected from Youtube/Facebook. Removing the frameborder creates a border around the film that doesn't look very nice. Removal of width/height seem to cause the films sizes to change. I haven't found a way to correct this with html or CSS. If it had been a real company site it would probably be better to upload films for the web page. The ipad layout in its current state needs to be adjusted to look better. 
 
 ## Deployment
 The coding was written in Codeanywhere and deployed to GitHub pages.
