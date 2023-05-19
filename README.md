@@ -1,10 +1,10 @@
-<h1>Film Ark webpage></h1>
+# Film Ark webpage>/h1>
 
 <img src="assets/images/filmark.PNG>
 
-<p>The Film Ark webpage is a way to attract film makers to use the Film Ark company's post-production services. Here potential clients can look at what the company has done before, as well as find information on how to contact the company. </p>
+The Film Ark webpage is a way to attract film makers to use the Film Ark company's post-production services. Here potential clients can look at what the company has done before, as well as find information on how to contact the company. 
 
-<h3>Features</h3>
+## Features
 <p>All pages have a company logo on that has a underneath menu leading to the 3 pages: Home, Films and Contact . The page we are currently on is highlighted. This helps the user navigate back and forth between pages.</p>
 <img src="assets/images/menu.png">
 <p>There is a footer at the bottom of each page with the address and contact information to Film Ark</p>
