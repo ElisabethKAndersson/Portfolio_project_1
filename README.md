@@ -21,7 +21,8 @@ I have run through the project with W3C validator and (Jigsaw) validator. I have
 ### Unfixed bugs
 There are some problems with the film links in the films page according to W3C validator. There is a frameborder="0" and width and height that comes with the links collected from Youtube/Facebook. Removing the frameborder creates a border around the film that doesn't look very nice. Removal of width/height seem to cause the films sizes to change. I haven't found a way to correct this with html or CSS. If it had been a real company site it would probably be better to upload films for the web page
 
-<h3>Deployment</h3>
+## Deployment
+The site was deployed to GitHub pages.
 
 ## Credits 
 Still images in this project have been downloaded from: https://pixabay.com/
