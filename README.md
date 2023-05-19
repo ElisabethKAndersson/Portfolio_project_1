@@ -5,30 +5,30 @@
 The Film Ark webpage is a way to attract film makers to use the Film Ark company's post-production services. Here potential clients can look at what the company has done before, as well as find information on how to contact the company. 
 
 ## Features
-<p>All pages have a company logo on that has a underneath menu leading to the 3 pages: Home, Films and Contact . The page we are currently on is highlighted. This helps the user navigate back and forth between pages.</p>
+All pages have a company logo on that has a underneath menu leading to the 3 pages: Home, Films and Contact . The page we are currently on is highlighted. This helps the user navigate back and forth between pages.
 <img src="assets/images/menu.png">
-<p>There is a footer at the bottom of each page with the address and contact information to Film Ark</p>
+There is a footer at the bottom of each page with the address and contact information to Film Ark.
 <img src="assets/images/footing.png">
-<p>The index page has a picture of a woman editing film along with some short information about what the company does. This immediately gives the user an idea of what type of services that are offered at the page.
+The index page has a picture of a woman editing film along with some short information about what the company does. This immediately gives the user an idea of what type of services that are offered at the page.
 <img src="assets/images/films.png">
-The webpage has a page with films that the company has made. This is a way the give credibility to the business, and works as a type of CV. It also shows what type of editing style the company has.</p>
-<p>To simplify the step to get in touch with Film Ark there is also a contact page with a form where users can send a message without opening an e-mail application.</p>
+The webpage has a page with films that the company has made. This is a way the give credibility to the business, and works as a type of CV. It also shows what type of editing style the company has.
+To simplify the step to get in touch with Film Ark there is also a contact page with a form where users can send a message without opening an e-mail application.
 
-<h4>Features left to implement</h4>
-<p>The page could benefit from a page that breaks down in detail what type of services that the company can offer.</p>
+### Features left to implement</h4>
+The page could benefit from a page that breaks down in detail what type of services that the company can offer.
 
-<h3> Testing</h3>
-<p></p>I have run through the project with W3C validator and (Jigsaw) validator. I have also checked different sizes with help from Chrome Inpect tool. I have tried the links in the menu and filled in and submitted a message in the form.</p>
+## Testing
+I have run through the project with W3C validator and (Jigsaw) validator. I have also checked different sizes with help from Chrome Inpect tool. I have tried the links in the menu and filled in and submitted a message in the form.</p>
 
-<h4>Unfixed bugs</h4>
-<p>There are some problems with the films in the films page according to W3C validator. There is a frameborder="0" and width and height that comes with the links collected from Youtube/Facebook. Removing the frameborder creates an unfitting border around the film. Removal of width/height seem to cause the films sizes to change. I haven't found a way to correct this with html or CSS. If it had been a real company site it would probably be better to upload films for the web page</p>
+### Unfixed bugs
+There are some problems with the films in the films page according to W3C validator. There is a frameborder="0" and width and height that comes with the links collected from Youtube/Facebook. Removing the frameborder creates an unfitting border around the film. Removal of width/height seem to cause the films sizes to change. I haven't found a way to correct this with html or CSS. If it had been a real company site it would probably be better to upload films for the web page
 
 <h3>Deployment</h3>
 
-<h3>Credits</h3>
-<p>Still images in this project have been downloaded from: https://pixabay.com/</p>
-<p>I have used two film links uploaded on my own Youtube user profil. I have also used clips from 2 films, one from Youtube and one to Facebook, that I have been involved in the making of. I did this to avoid using film links that might have some royalty issues</p>
-<p>I got advice from my mentor, Jubril Akolade, regarding the use of flexbox and got help from watching a tutorial from Youtube: https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG
+## Credits 
+Still images in this project have been downloaded from: https://pixabay.com/
+I have used two film links uploaded on my own Youtube user profil. I have also used clips from 2 films, one from Youtube and one to Facebook, that I have been involved in the making of. I did this to avoid using film links that might have some royalty issues.
+I got advice from my mentor, Jubril Akolade, regarding the use of flexbox and got help from watching a tutorial from Youtube: https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG
 
 
 
