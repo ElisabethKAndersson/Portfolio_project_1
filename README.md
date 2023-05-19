@@ -1,6 +1,6 @@
 # Film Ark webpage
 
-![Full page(assets/images/filmark.PNG)
+![Full page](assets/images/filmark.PNG)
 
 The Film Ark webpage is a way to attract film makers to use the Film Ark company's post-production services. Here potential clients can look at what the company has done before, as well as find information on how to contact the company. 
 
