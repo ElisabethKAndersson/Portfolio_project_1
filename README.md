@@ -31,6 +31,7 @@ Still images in this project have been downloaded from: https://pixabay.com/
 I have used two film links uploaded on my own Youtube user profil. I have also used clips from 2 films, one from Youtube and one to Facebook, that I have been involved in the making of. I did this to avoid using film links that might have some royalty issues.
 I got advice from my mentor, Jubril Akolade, regarding the use of flexbox and got help from watching a tutorial from Youtube: https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG
 
+I used Font
 I used this page to find a color scheme for my homepage: https://visme.co/blog/website-color-schemes/.
 I used the colors from number 3 as inspiration, but choose to use a somewhat colder and darker version of the blue background overlay. I used the codes #DAAD86 and #659dbd.
 <img src="assets/images/color.png">
