@@ -167,28 +167,19 @@ hr {clear: both;
     }
 
     #introduction {
-        margin: 70px 70px;
-        max-width: 30%;
-}
-    #index-img {
-    max-width: 600px;
-    margin-top: 40px;
-}
-}
+    text-align: left;
+    margin:5px 400px;
+    }  
+    .index-img {
+        padding: 30px 0 10px;
+    }
+    }
 
 /* for screens 1024px and down */
 
 @media screen and (max-width: 1024px){
 
-    #index-img {
-        max-width: 400px;
-        margin-top: 20px;
-    }
-    #introduction {
-        margin: 1px 30px;
-        max-width: 80%;
-        font-size: 16px;
-    }
+
 
 #form-div {
     padding: 30px 1px;
